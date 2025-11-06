@@ -35,10 +35,7 @@
 
             <!-- Main Content -->
             <div id="content">
-
-                <!-- Topbar -->
-                @include('layouts.navbar')
-
+                
                 <!-- Begin Page Content -->
                 <main class="container-fluid">
                     @yield('content')
@@ -49,10 +46,10 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer bg-white">
+            <footer class="sticky-footer bg-grey">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website {{ date('Y') }}</span>
+                        <span></span>
                     </div>
                 </div>
             </footer>
